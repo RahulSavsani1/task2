@@ -1,0 +1,18 @@
+.chart_container{
+    background: white;
+    border-radius: 1rem;
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px gray;
+}
+.chart_dropdown{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+}

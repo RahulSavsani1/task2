@@ -1,0 +1,117 @@
+[
+    {
+        "company":"Google",
+        "Applied":95,
+        "Recommended":57,
+        "Interview":39,
+        "Offer":33,
+        "Hired":15,
+        "Total_Rejected":60,
+        "opportunity":[
+            {
+                "name":"UX internship",
+                "Applied":{
+                    "Active": 20,
+                    "Disqualified":7
+                },
+                "Recommended":{
+                    "Active": 17,
+                    "Disqualified":4
+                },
+                "Interview":{
+                    "Active": 4,
+                    "Disqualified":1
+                },
+                "Offer":{
+                    "Active": 4,
+                    "Disqualified":1
+                },
+                "Hired":{
+                    "Active": 4,
+                    "Disqualified":1
+                }
+            },
+            {
+                "name":"Art internship",
+                "Applied":{
+                    "Active": 44,
+                    "Disqualified":24
+                },
+                "Recommended":{
+                    "Active": 32,
+                    "Disqualified":4
+                },
+                "Interview":{
+                    "Active": 21,
+                    "Disqualified":7
+                },
+                "Offer":{
+                    "Active": 19,
+                    "Disqualified":8
+                },
+                "Hired":{
+                    "Active": 10,
+                    "Disqualified":3
+                }
+            }
+        ]
+    },
+    {
+        "company":"Microsoft",
+        "Applied":95,
+        "Recommended":57,
+        "Interview":39,
+        "Offer":33,
+        "Hired":15,
+        "Total Rejected":60,
+        "opportunity":[
+            {
+                "name":"UX internship",
+                "Applied":{
+                    "Active": 20,
+                    "Disqualified":7
+                },
+                "Recommended":{
+                    "Active": 17,
+                    "Disqualified":4
+                },
+                "Interview":{
+                    "Active": 4,
+                    "Disqualified":1
+                },
+                "Offer":{
+                    "Active": 4,
+                    "Disqualified":1
+                },
+                "Hired":{
+                    "Active": 4,
+                    "Disqualified":1
+                }
+            },
+            {
+                "name":"Art internship",
+                "Applied":{
+                    "Active": 44,
+                    "Disqualified":24
+                },
+                "Recommended":{
+                    "Active": 32,
+                    "Disqualified":4
+                },
+                "Interview":{
+                    "Active": 21,
+                    "Disqualified":7
+                },
+                "Offer":{
+                    "Active": 19,
+                    "Disqualified":8
+                },
+                "Hired":{
+                    "Active": 10,
+                    "Disqualified":3
+                }
+            }
+        ]
+    }
+
+]

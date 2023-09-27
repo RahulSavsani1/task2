@@ -1,0 +1,65 @@
+.company_container{
+    padding: 1rem;
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 1rem;
+    background: white;
+}
+.company_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cmp_header{
+    width: 92%;
+}
+.cmp_btn{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.company_btn1,.company_btn2{
+    box-shadow: 2px 2px 5px gray;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.company_middle_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.company_middle_data_container{
+    background: white;
+    box-shadow: 2px 2px 5px gray;
+    width: 12rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.company_table{
+    padding: 1rem 0rem;
+    width: 100%;
+    border-spacing: 0px 10px;
+}
+/* .company_table{
+    box-shadow: 2px 2px 5px gray;
+} */
+.company_table tr{
+    height: 2rem;
+}
+.company_table thead th{
+    background: lightgray;
+}
+.company_table tbody td{
+    text-align: center;
+}
+.sub_total{
+    background: lightblue;
+    padding-left: 1rem;
+}

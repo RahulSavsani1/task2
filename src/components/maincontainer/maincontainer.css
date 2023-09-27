@@ -1,0 +1,36 @@
+.main_container{
+    width: 95%;
+    background: transparent;
+    height: 100vh;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.top_container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+/** top left container start*/
+.topleft_container{
+    height: 60%;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+/** top right container start*/
+.topright_container{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2rem;
+    flex-direction: column;
+}
+
+/** */
+.bottom_container{
+    width: 100%;
+}

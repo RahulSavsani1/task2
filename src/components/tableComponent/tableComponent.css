@@ -1,0 +1,50 @@
+.right_top_container{
+    background: white;
+    height: 75%;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px gray;
+    padding: 1rem  3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 0.3rem;
+}
+.qualified{
+    height: 100%;
+    background: green;
+    border-radius: 1rem 0rem 0 1rem;
+    position: relative;
+}
+.qualified::after{
+    content: 'Qualified 78%';
+    position: absolute;
+    top: 5px;
+}
+.disqualified{
+    height: 100%;
+    background: red;
+    border-radius: 0 1rem 1rem 0rem;
+    position: relative;
+}
+.disqualified::after{
+    content: 'Disqualified 22%';
+    position: absolute;
+    top: 5px;
+}
+.righttop_table{
+    padding-top: 2rem;
+    width: 100%;
+    border-spacing: 0px 10px;
+}
+
+td{
+    text-align: right;
+}
