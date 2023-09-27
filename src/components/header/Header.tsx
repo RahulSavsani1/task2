@@ -1,4 +1,3 @@
-import React from 'react'
 import { DownOutlined } from '@ant-design/icons';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
@@ -50,7 +49,7 @@ export const Header = ({name}:requiredProps) => {
             <div className="top_right_heading">
                 <div style={{ width: "45%" }}>
                     <Dropdown menu={{ items }} >
-                        <a onClick={(e) => e.preventDefault()}>
+                        <a onClick={(e) => e.preventDefault()} href='https://www.antgroup.com'>
                             <Space>
                                 London Internship Program
                                 <DownOutlined />

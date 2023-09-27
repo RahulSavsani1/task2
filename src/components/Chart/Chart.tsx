@@ -89,7 +89,7 @@ export const Chart = () => {
     <div className='chart_container'>
       <div className="chart_dropdown">
         <Dropdown menu={{ items }} >
-          <a onClick={(e) => e.preventDefault()}>
+          <a onClick={(e) => e.preventDefault()} href='https://www.antgroup.com'>
             <Space>
               Recommended
               <DownOutlined />

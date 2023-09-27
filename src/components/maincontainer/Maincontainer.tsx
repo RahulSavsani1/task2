@@ -4,7 +4,6 @@ import { InfoCards1, InfoCards2 } from '../InfoCards/InfoCards';
 import { TableComponent } from '../tableComponent/TableComponent';
 import { Header } from '../header/Header';
 import { BottomHeader } from '../header/BottomHeader';
-import {Link} from "react-router-dom"
 import { Companytable } from '../companytable/Companytable';
 
 export const Maincontainer = () => {
