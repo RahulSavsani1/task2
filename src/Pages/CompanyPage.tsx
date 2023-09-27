@@ -1,5 +1,3 @@
-import React from 'react'
-import { Sidebar } from '../components/sidebar/Sidebar'
 import { useParams } from "react-router-dom"
 import Data from "../companydata.json";
 import { Header } from '../components/header/Header';
